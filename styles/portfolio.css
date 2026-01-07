@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+.logo h2{
+    font-size: 35px;
+
+}
+.color-orange{
+    color: #FD6E0A;
+    font-weight: 900;
+}
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+
+.section-heading h2{
+   font-size: 35px;
+   margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+header{
+    background-color:#FFF8F3;
+    padding: 50px;
+}
+
+nav{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a {
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+#about{
+    padding-top: 130px;
+}
+
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.abot-info .info-card p{
+   font-size: 20px;
+   line-height: 30px;
+   color: #757575;
+}
+.abot-info .info-card h4{
+    font-size: 20px;
+}
